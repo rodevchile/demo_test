@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
     public void saludar(View view) {
         Toast.makeText(this,"Hola!!",Toast.LENGTH_LONG).show();
     }
+
+    public String save(){
+        return "saved";
+    }
 }
